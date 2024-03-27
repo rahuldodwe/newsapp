@@ -9,7 +9,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <NavBar></NavBar>
+        <NavBar/>
         <News pageSize={5}/>
       </div>
     )
